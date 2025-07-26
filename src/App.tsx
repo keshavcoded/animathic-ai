@@ -1,8 +1,12 @@
+import Hero from "./components/Hero";
+import Navbar from "./components/Navbar";
+
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold underline text-white">Hello World!</h1>
-    </div>
+    <main className="text-sm text-neutral-300 antialiased">
+      <Navbar />
+      <Hero />
+    </main>
   );
 }
 
