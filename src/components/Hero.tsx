@@ -75,6 +75,7 @@ const Hero = () => {
             src={heroImage}
             alt="Animathic Interface"
             className="w-full h-auto rounded-3xl border border-neutral-800 mb-20"
+            draggable={false}
           />
         </motion.div>
       </div>

@@ -13,22 +13,34 @@ const Navbar = () => {
     <nav className="fixed top-4 left-0 right-0 z-50 m-2">
       <div className="text-neutral-500 bg-black/60 backdrop-blur-md max-w-7xl mx-auto px-4 py-3 flex justify-between items-center rounded-xl border border-neutral-800">
         <a href="#">
-          <img src={logo} alt="logo" className="w-34 h-5" />
+          <img src={logo} alt="logo" className="w-25 h-4 lg:w-35 lg:h-5" draggable={false} />
         </a>
         <div className="hidden md:flex space-x-6">
-          <a href="#works" className="hover:text-neutral-200 transition-hover duration-300">
+          <a
+            href="#works"
+            className="hover:text-neutral-200 transition-hover duration-300"
+          >
             How it works
           </a>
-          <a href="#works" className="hover:text-neutral-200 transition-hover duration-300">
+          <a
+            href="#works"
+            className="hover:text-neutral-200 transition-hover duration-300"
+          >
             Pricing
           </a>
-          <a href="#works" className="hover:text-neutral-200 transition-hover duration-300">
+          <a
+            href="#works"
+            className="hover:text-neutral-200 transition-hover duration-300"
+          >
             Testimonials
           </a>
         </div>
 
         <div className="hidden md:flex space-x-4 items-center">
-          <a href="#" className="hover:text-neutral-200  transition-hover duration-300">
+          <a
+            href="#"
+            className="hover:text-neutral-200  transition-hover duration-300"
+          >
             Login
           </a>
           <a
