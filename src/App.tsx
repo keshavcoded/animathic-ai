@@ -2,6 +2,7 @@ import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
 import HowItWorks from "./components/HowItWorks";
 import Navbar from "./components/Navbar";
+import Pricing from "./components/Pricing";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <HowItWorks />
       <Highlights />
+      <Pricing />
     </main>
   );
 }
