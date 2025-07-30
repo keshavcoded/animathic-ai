@@ -23,13 +23,13 @@ const Navbar = () => {
             How it works
           </a>
           <a
-            href="#works"
+            href="#pricing"
             className="hover:text-neutral-200 transition-hover duration-300"
           >
             Pricing
           </a>
           <a
-            href="#works"
+            href="#testimonial"
             className="hover:text-neutral-200 transition-hover duration-300"
           >
             Testimonials
@@ -70,7 +70,7 @@ const Navbar = () => {
 
       {/*  mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-neutral-900/60 backdrop-blur-md border border-neutral-800 p-4 rounded-xl mt-2">
+        <div className="md:hidden bg-neutral-900/60 backdrop-blur-md border border-neutral-800 p-4 rounded-xl">
           <div className="flex flex-col space-y-4">
             <a href="#" className="hover:text-neutral-200">
               Product

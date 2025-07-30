@@ -53,7 +53,7 @@ const Pricing = () => {
               key={index}
               custom={index}
               variants={childVariants}
-              className={`p-8 rounded-xl shadow-lg bg-neutral-950 ${
+              className={`p-8 rounded-xl shadow-lg ${
                 plan.popular
                   ? "border border-blue-900/80"
                   : "border border-neutral-800"
