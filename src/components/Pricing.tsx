@@ -55,7 +55,7 @@ const Pricing = () => {
               variants={childVariants}
               className={`p-8 rounded-xl shadow-lg ${
                 plan.popular
-                  ? "border border-blue-900/80"
+                  ? "border border-blue-900/90"
                   : "border border-neutral-800"
               }`}
             >
@@ -70,7 +70,7 @@ const Pricing = () => {
                 {plan.name}
               </h3>
               <p className="text-neutral-400 mb-6">{plan.description}</p>
-              <div className="text-2xl lg:text-3xl font-medium mb-6">
+              <div className="text-2xl lg:text-3xl font-medium mb-6 text-white">
                 {plan.price}
               </div>
               <ul className="mb-8 space-y-2 text-neutral-400">

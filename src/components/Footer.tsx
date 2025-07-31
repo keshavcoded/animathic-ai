@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
 
         <div className="my-12 border-t border-neutral-800 pt-8 text-center text-sm text-neutral-500">
-          <div className="flex justify-between">
+          <div className="flex flex-col justify-center md:flex-row md:justify-between gap-y-2">
             <div className="text-xs">
               <p>{FOOTER_CONTENT.platformsText}</p>
             </div>

@@ -1,4 +1,4 @@
-import { KEY_FEATURES_CONTENT } from "../constants";
+import { HIGHLIGHTS_CONTENT } from "../constants";
 import { motion } from "framer-motion";
 
 const Highlights = () => {
@@ -28,9 +28,9 @@ const Highlights = () => {
       <div className="max-w-7xl mx-auto px-4 mt-20">
         <div className="text-center mb-12 border-t border-neutral-800">
           <h2 className="text-3xl lg:text-5xl mt-20 tracking-tighter bg-gradient-to-t from-neutral-50 via-neutral-300 to-neutral-600 bg-clip-text text-transparent">
-            {KEY_FEATURES_CONTENT.sectionTitle}
+            {HIGHLIGHTS_CONTENT.sectionTitle}
           </h2>
-          <p className="mt-4">{KEY_FEATURES_CONTENT.sectionDescription}</p>
+          <p className="mt-4">{HIGHLIGHTS_CONTENT.sectionDescription}</p>
         </div>
 
         <motion.div
@@ -39,7 +39,7 @@ const Highlights = () => {
           whileInView="visible"
           className="flex flex-wrap justify-between"
         >
-          {KEY_FEATURES_CONTENT.features.map((feature) => (
+          {HIGHLIGHTS_CONTENT.features.map((feature) => (
             <motion.div
               key={feature.id}
               className="flex flex-col items-center text-center w-full md:w-1/3 p-6"
